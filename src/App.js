@@ -16,6 +16,7 @@ const App = () => {
         <Header></Header>
         <div className="main-content">
           <Routes>
+            <Route exact path="/The-Space-Magazine" element={<Home />}></Route>
             <Route exact path="/" element={<Home />}></Route>
             <Route exact path="/Home" element={<Home />}></Route>
             <Route exact path="/Explore" element={<Explore />}></Route>
