@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/The-Space-Magazine/static/css/main.79adfe95.css",
-    "main.js": "/The-Space-Magazine/static/js/main.af9e797c.js",
+    "main.js": "/The-Space-Magazine/static/js/main.ec5d90f8.js",
     "static/js/787.ed64ca27.chunk.js": "/The-Space-Magazine/static/js/787.ed64ca27.chunk.js",
     "static/media/Editor.PNG": "/The-Space-Magazine/static/media/Editor.8d90dc1c5b96b387cba4.PNG",
     "static/media/outerSpace.png": "/The-Space-Magazine/static/media/outerSpace.4e8a382cd619afed86fa.png",
     "index.html": "/The-Space-Magazine/index.html",
     "main.79adfe95.css.map": "/The-Space-Magazine/static/css/main.79adfe95.css.map",
-    "main.af9e797c.js.map": "/The-Space-Magazine/static/js/main.af9e797c.js.map",
+    "main.ec5d90f8.js.map": "/The-Space-Magazine/static/js/main.ec5d90f8.js.map",
     "787.ed64ca27.chunk.js.map": "/The-Space-Magazine/static/js/787.ed64ca27.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.79adfe95.css",
-    "static/js/main.af9e797c.js"
+    "static/js/main.ec5d90f8.js"
   ]
 }
