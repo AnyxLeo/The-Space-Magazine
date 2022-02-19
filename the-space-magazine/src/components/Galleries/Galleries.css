@@ -1,0 +1,14 @@
+.galleries {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: auto;
+    overflow: auto;
+  }
+
+  .container {
+    width: auto;
+    flex-direction: row;
+  }
+
+ 

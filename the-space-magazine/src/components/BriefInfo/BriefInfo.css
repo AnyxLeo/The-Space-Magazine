@@ -1,0 +1,17 @@
+.info-brief {    
+    border: snow 5px double;
+    min-height: 9em;
+    margin-bottom: 1em;
+}
+
+.info-brief:hover {    
+    border: 5px double #967adc;
+    box-shadow: 0 0 3px 0 #959497;
+}
+
+.trending-image {
+    height: 7em;
+    width: 7em;
+    float: left;
+    padding: 0em 1em 1em 1em;
+  }

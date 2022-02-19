@@ -1,0 +1,40 @@
+.todays-image-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(253, 187, 45, 1) 100%
+  );
+}
+
+.today-image {
+  height: 20em;
+  width: 20em;
+  float: left;
+  margin-right: 1em;
+  margin-bottom: 1em;
+}
+
+.button-see-more {
+  width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px; 
+    background: #967adc;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.button-see-more a {
+  outline: none;
+  text-decoration: none;
+  display: inline;
+  width: 19.5%;
+  margin-right: 0.625%;
+  text-align: center;
+  line-height: 3; 
+}

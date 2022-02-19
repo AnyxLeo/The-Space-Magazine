@@ -1,0 +1,170 @@
+.subscribe -form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    padding: 20px;
+    }
+
+form {
+    width: 100%;
+    padding: 20px;
+    border-radius: 6px;
+    background: #fff;
+    box-shadow: 0 0 8px  #967adc; 
+}
+
+    
+input, fieldset {
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input {
+    width: calc(100% - 10px);
+    padding: 5px;
+}
+
+.item:hover p, .item:hover i, .answer:hover p, fieldset:hover, .answer label:hover, input:hover::placeholder {
+    color: #967adc;
+}
+
+.item input:hover {
+    border: 1px solid transparent;
+    box-shadow: 0 0 3px 0 #967adc;
+    color: #959497;
+}
+
+.item {
+    margin: 10px 0;
+}
+
+.item span {
+    color: red;
+}
+
+.answer span {
+    margin-left: 30px;
+}
+
+.answer-answer label {
+    display: block;
+}
+
+.policy span {
+    margin-left: 30px;
+}
+        
+input[type=checkbox], input[type=checkbox]  {
+    display: none;
+}
+
+label.checkbox{
+    position: relative;
+    display: inline-block;
+    margin: 5px 20px 15px 0;
+    cursor: pointer;
+}
+
+label.checkbox:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 17px;
+    height: 17px;
+    border-radius: 2%;
+    border: 2px solid #ccc;
+}
+
+input[type=checkbox]:checked + label:before, label.checkbox:hover:before {
+    border: 2px solid #967adc;
+}
+
+label.checkbox:after {
+    content: "";
+    position: absolute;
+    top: 6px;
+    left: 5px;
+    width: 8px;
+    height: 4px;
+    border: 3px solid #967adc;
+    border-top: none;
+    border-right: none;
+    transform: rotate(-45deg);
+    opacity: 0;
+}
+
+input[type=checkbox]:checked + label:after {
+    opacity: 1;
+}
+
+.btn-block {
+    margin-top: 10px;
+    text-align: center;
+}
+
+button {
+    width: 150px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px; 
+    background: #967adc;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #baa4f3;
+}
+
+@media (min-width: 568px) {
+.name-item, .city-item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.name-item input, .name-item div {
+    width: calc(50% - 20px);
+}
+
+.name-item div input {
+    width:97%;
+}
+
+.name-item div label {
+        display:block;
+        padding-bottom:5px;
+    }
+}
+
+.space{
+    justify-content: center;
+    text-align: center; 
+}
+.space-logo {    
+    height: 70vmin;
+    pointer-events: none;
+  }
+
+.space-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .space-logo {
+      animation: space-logo-spin infinite 20s linear;
+    }
+  }
+
+  @keyframes space-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }

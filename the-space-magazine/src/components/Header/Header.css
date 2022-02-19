@@ -1,0 +1,84 @@
+.header {
+    color: white; 
+    height: 10em;   
+}
+
+.header-title {
+    background-color: black;
+    padding: 5px;
+    text-align: center;
+    font-size: 15px;
+    height: 7em;
+}
+
+.header-options {
+    background-color: white;
+    height: 4em;
+}
+
+.magazine-logo {
+    height: 4em;
+    width: 4em;
+    pointer-events: none;
+  }
+
+  #main-header {
+	background: #333;
+	color: white;
+	height: 80px;
+    width: 100%; 
+	left: 0; 
+	top: 0; 
+	position: fixed;
+}	
+	#main-header a {
+		color: #967adc;
+        font-weight: bold;
+	}
+
+#logo-header {
+	float: left;
+	padding: 0px 0 0 15px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: #0b76a6;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+    
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 4em;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #0b76a6;
+				}

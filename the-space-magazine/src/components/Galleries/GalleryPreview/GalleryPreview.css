@@ -1,0 +1,26 @@
+figure {
+    display:inline-block;
+    border: 3px #c0c0c0 solid;
+    flex-flow: column ;
+    padding: 5px;
+    width: 14em;
+}
+
+figure:hover {
+    border: 3px solid #967adc;
+    box-shadow: 0 0 3px 0 #959497;
+    cursor: pointer;
+}
+
+img {
+    max-width: 14em;
+    max-height: 10em;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
